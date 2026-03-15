@@ -1,17 +1,63 @@
-# mini_katalog
+# Mini Catalog Uygulaması
 
-A new Flutter project.
+Software Persona Mobil Projesidir, uygulamada ürünleri arayabilir, inceleyebilir ve sepete ekleyip alanabilir.
 
-## Getting Started
+## Ekran Görüntüleri
 
-This project is a starting point for a Flutter application.
+> Add your screenshots here after running the app.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Flutter Versiyonu
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Flutter 3.41.4** / **Dart 3.11.1**
+
+
+### Run the App
+
+1. **Repoyu Kopyala**
+   ```
+   git clone https://github.com/LordWafflous/sp-mobile-project.git
+   cd mini_catalog
+   ```
+
+2. **Dependency ekle**
+   ```
+   flutter pub get
+   ```
+
+3. **Emulatorde çalıştır**
+   ```
+   flutter run
+   ```
+
+## Proje Yapısı
+
+```
+lib/
+├── main.dart                   # App giriş noktası ve rotalar
+├── models/
+│   └── product.dart            # Ürün veri modeli
+├── data/
+│   └── products_data.dart      # Örnek ürünlerin listesi
+└── screens/
+    ├── home_screen.dart         # Ana sayfa
+    ├── product_list_screen.dart # GridView katalog ve arama
+    ├── product_detail_screen.dart # Ürün detayları
+    └── cart_screen.dart         # Sepet
+```
+
+## Özellikler
+
+- Ana ekrandan katoloğa giriş
+- Eşya arama ve filtreleme
+- GridView kartları
+- Ürün sayfa ve detayları 
+- Ürünü sepete ekleme
+
+## Öğrenilenler
+
+- Stateless ve Stateful widgetlar
+- Routelarla navigator 
+- Route argümanlarının ekranlar arası kullanımı
+- ListView ve GridView buildleri
+- Durum yönetimiyle sepet oluşturma
