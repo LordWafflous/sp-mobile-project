@@ -4,7 +4,9 @@ Software Persona Mobil Projesidir, uygulamada ürünleri arayabilir, inceleyebil
 
 ## Ekran Görüntüleri
 
-> Add your screenshots here after running the app.
+| Ana Sayfa | Katalog | Ürün Detayları | Sepet |
+|------|---------|--------|------|
+| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/catalog.png" width="200"/> | <img src="screenshots/detail.png" width="200"/> | <img src="screenshots/cart.png" width="200"/> |
 
 
 ## Flutter Versiyonu
